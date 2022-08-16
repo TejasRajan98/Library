@@ -2,14 +2,14 @@ package data;
 
 public class Book {
     private String title;
-    private String yearOfPublication;
+    private int yearOfPublication;
     private long ISBN;
     private String author;
     private double price;
     public void setTitle(String title){
         this.title = title;
     }
-    public void setYearOfPublication(String yearOfPublication){
+    public void setYearOfPublication(int yearOfPublication){
         this.yearOfPublication = yearOfPublication;
     }
     public void setISBN(long ISBN){
@@ -24,7 +24,7 @@ public class Book {
     public String getTitle(){
         return title;
     }
-    public String getYearOfPublication(){
+    public int getYearOfPublication(){
         return yearOfPublication;
     }
     public long getISBN(){
