@@ -16,9 +16,24 @@ public class Book {
         this.ISBN = ISBN;
     }
     public void setAuthor(String author){
-            this.author = author;
+        this.author = author;
     }
     public void setPrice(double price){
         this.price = price;
+    }
+    public String getTitle(){
+        return title;
+    }
+    public String getYearOfPublication(){
+        return yearOfPublication;
+    }
+    public long getISBN(){
+        return ISBN;
+    }
+    public String getAuthor(){
+        return author;
+    }
+    public double getPrice(){
+        return price;
     }
 }
